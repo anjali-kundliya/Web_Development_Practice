@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.parent{
+	height: 100vh;
+	border: 20px solid rgb(0,0,0);
+	display: flex;
+	align-items: baseline;
+	flex-flow: column wrap;
+	/*flex-wrap: wrap;
+	align-content: flex-start;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;*/
+}
+.child1{
+	width: 200px;
+	height: 200px;
+	background: rgb(39,61,134);
+	flex-grow: 1;
+	/*flex-basis: 200px;*/
+}
+.child2{
+	width: 200px;
+	height: 200px;
+	background: rgb(172,57,53);
+	order: 1;
+	flex-grow: 1;
+	/*align-self: center;*/
+}
+.child3{
+	width: 200px;
+	height: 200px;
+	background: rgb(149,43,140);
+	order: 2;
+	/*align-self: flex-end;*/
+}
